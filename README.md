@@ -4,6 +4,12 @@ The code is from [word-rnn-tensorflow](https://github.com/hunkim/word-rnn-tensor
 
 I only changed some parameters.
 
+# Video Demo
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=9E3PPEvmOpo
+" target="_blank"><img src="http://img.youtube.com/vi/9E3PPEvmOpo/0.jpg" 
+alt="Write with LSTM RNN" width="240" height="180"  /></a>
+
 # Requirements
 - [Tensorflow 1.1.0rc0](http://www.tensorflow.org)
 
