@@ -6,8 +6,8 @@ I only changed some parameters.
 
 # Video Demo
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=9E3PPEvmOpo
-" target="_blank"><img src="http://img.youtube.com/vi/9E3PPEvmOpo/0.jpg" 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=8hIwDiVDNNU
+" target="_blank"><img src="http://img.youtube.com/vi/8hIwDiVDNNU/0.jpg" 
 alt="Write with LSTM RNN" width="240" height="180"  /></a>
 
 # Requirements
