@@ -7,8 +7,6 @@ I only changed some parameters.
 # Requirements
 - [Tensorflow 1.1.0rc0](http://www.tensorflow.org)
 
-## The following is also from [word-rnn-tensorflow](https://github.com/hunkim/word-rnn-tensorflow)
-
 # Basic Usage
 To train with default parameters on the tinyshakespeare corpus, run:
 ```bash
