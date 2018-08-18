@@ -1,6 +1,6 @@
 # Write-with-RNN-LSTM
 
-The code is from [word-rnn-tensorflow](https://github.com/hunkim/word-rnn-tensorflow)
+The code is from [word-rnn-tensorflow](https://github.com/hunkim/word-rnn-tensorflow). 
 
 I only changed some parameters.
 
