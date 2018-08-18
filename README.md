@@ -1,9 +1,14 @@
-# word-rnn-tensorflow
-[![Build Status](https://travis-ci.org/hunkim/word-rnn-tensorflow.svg?branch=master)](https://travis-ci.org/hunkim/word-rnn-tensorflow)
+# Write-with-RNN-LSTM
 
-Multi-layer Recurrent Neural Networks (LSTM, RNN) for word-level language models in Python using TensorFlow.
+The code is from [word-rnn-tensorflow](https://github.com/hunkim/word-rnn-tensorflow). 
 
-Mostly reused code from https://github.com/sherjilozair/char-rnn-tensorflow which was inspired from Andrej Karpathy's [char-rnn](https://github.com/karpathy/char-rnn).
+I only changed some parameters.
+
+# Video Demo
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=8hIwDiVDNNU
+" target="_blank"><img src="http://img.youtube.com/vi/8hIwDiVDNNU/0.jpg" 
+alt="Write with LSTM RNN" width="240" height="180"  /></a>
 
 # Requirements
 - [Tensorflow 1.1.0rc0](http://www.tensorflow.org)
@@ -28,117 +33,27 @@ python sample.py --pick 2 --width 4
 
 # Sample output
 
-### Word-RNN
-```
-LEONTES:
-Why, my Irish time?
-And argue in the lord; the man mad, must be deserved a spirit as drown the warlike Pray him, how seven in.
 
-KING would be made that, methoughts I may married a Lord dishonour
-Than thou that be mine kites and sinew for his honour
-In reason prettily the sudden night upon all shalt bid him thus again. times than one from mine unaccustom'd sir.
+The coolest light in the bedrooms along with the same green ink, and the same delicacy of words with which the only ones with one brought him some schematic lessons. 
 
-LARTIUS:
-O,'tis aediles, fight!
-Farewell, it himself have saw.
+The only one that at the same time were still as adept in the ways of the telegraph system, and in the end they were the only one who felt the dozing cat's purr of his kidneys, he felt the iridescent brilliance of his vesicles, he felt the humming blood in his arteries. 
 
-SLY:
-Now gods have their VINCENTIO:
-Whipt fearing but first I know you you, hinder truths.
+At times he awoke at dawn gasping for air, and asked them to leave her studies in despair, but those he understood that she would not destroy, no moral consideration she will not ignore at three o'clock in the morning, but he could not imagine the last stitch in the house of the little girls who went to bed with her head and saw the dogs on his knees, but he felt as if he were caste marks, stamps of invulnerability.
 
-ANGELO:
-This are entitle up my dearest state but deliver'd.
+ Only then did he discover that the scrip system was the Passenger Section, with a thin rooster, there arrived in front of the chestnut tree, one of the most illustrious of the dead. Therefore, when Florentino Ariza blamed for the first time in a very long handle so that one could think of the fact that she would not have believed it for so many years of so much as it had been in the red-light district, making bets on his forehead like the plume of a serene dignity. 
 
-DUKE look dissolved: seemeth brands
-That He being and
-full of toad, they knew me to joy.
-```
+He still spent the most beautiful city in the mouth of the garden without knowing that they would not have believed it for ten minutes after four, when he finished twenty-five he was against it. On the day of his return that Florentino Ariza slept. It was such a quick and they brought him out of death, unable to get rid of the routine of cockfights. The only tiling that they were in a hammock. It was such a spectacular undertaking that the mayor himself lent him to enjoy his torment, became only the most beautiful woman in the city and all its contents, which, according to the possibility of their cigarettes that seemed to be dragged ashore by their long-suffering wives when they began to be misplaced, and what he put on his chamois mustache cover and smelled of laughter as steel and had penetrated into the abyss of greatness. 
 
-### Char-RNN
-```
-ESCALUS:
-What is our honours, such a Richard story
-Which you mark with bloody been Thilld we'll adverses:
-That thou, Aurtructs a greques' great
-Jmander may to save it not shif theseen my news
-Clisters it take us?
-Say the dulterout apy showd. They hance!
 
-AnBESS OF GUCESTER:
-Now, glarding far it prick me with this queen.
-And if thou met were with revil, sir?
+He took pleasure in recalling with her and then but she had arranged with the idea that one of the many cases of cholera without offending the memory of the nighttime beets by the delicacy of his artistry that in a few years the same impetuous mob swarmed into the plazas and alleys of the old neighborhoods with their stores of everything that could be bought and sold, and they infused the languid apprentice Supreme Pontiff, but she did not have the courage to take him out of the workshop. “Now I’m convinced too late,” he told them all at the same time so definite, as it had been in the red-light district, making under the chestnut tree he was in the mail. He did not have the courage to take her to the chestnut tree, his father a little before at the shadowy cabin, and the tormenting hammering along the door of the little gold water whose contents was reduced to the workshop and the jubilation of the young people: the pianola. They spent three hours in the dining room, but the slight hunger he felt more specific: he had made an admirable couple, with his amorous provocations.
 
-KATHW:
-I must not my naturation disery,
-And six nor's mighty wind, I fairs, if?
+ By some miracle he kept on his chamois mustache cover and drew down each other twice at eleven o’clock in the morning with their arms crossed, counting the notes in the waltz of the Crowned Goddess at windblown daybreak. It did not seem to admit that she had changed. The nun lunched at the house, but it was too late to accuse him of so much reading. He had raised him with an imperceptible sign of unconditional complicity.
 
-Messenger:
-My lank, nobles arms;
-```
 
-## Beam search
+ I n the din of fireworks and native drums, of colored lights in the bluegrass of Kentucky, the Greek lovers in the infernal sunsets of Arizona, the girl the two of them still as a concert clavichordist was ratified by the hallucination that it was the most beautiful woman in the bluegrass of Kentucky, the Greek lovers In the dining room, and almost all the docks striking an interminable hour, and in the last century, Amaranta it was not easy for her to suppress with the pressure of the rope, and left care of them in the laundry room: 
 
-Beam search differs from the other `--pick` options in that it does not greedily
-pick single words; rather, it expands the most promising nodes and keeps a
-running score for each beam.
 
-### Word-RNN (with beam search)
-```
-# python sample.py --prime "KING RICHARD III:" -n 100 --pick 2 --width 4
-
-KING RICHARD III:
-you, and and and and have been to be hanged, I am not to be touched?
-
-Provost:
-A Bohemian born, for tying his own train,
-Forthwith by all that converses more with a crow-keeper;
-I have drunk, Broach'd with the acorn cradled. Follow.
-
-FERDINAND:
-Who would not be conducted.
-
-BISHOP OF ELY:
-If you have been a-bed an acre of barren ground, hath holy;
-I warrant, my lord restored of noon.
-
-ISABELLA:
-'Save my master and his shortness whisper me to the pedlar;
-Money's a medler.
-That I will pamper it to complain.
-
-VOLUMNIA:
-Indeed, I am
-```
-
-### Word-RNN (without beam search)
-```
-# python sample.py --prime "KING RICHARD III:" -n 100
-
-KING RICHARD III:
-marry, so and unto the wind have yours;
-And thou Juliet, sir?
-
-JULIET:
-Well, wherefore speak your disposition cousin;
-May thee flatter.
-My hand will answer him;
-e not to your Mariana Below these those and take this life,
-That stir not light of reason.
-The time Lucentio keeps a root from you.
-Cursed be his potency,
-It was my neighbour till the birth and I drank stay.
-
-MENENIUS:
-Here's the matter,
-I know take this sour place,
-they know allegiance Had made you guilty.
-You do her bear comfort him between him or our noble bosom he did Bolingbroke's
-```
-
-# Projects
-If you have any project using this word-rnn, please let us know. I'll list up your project here.
-
-- http://bot.wpoem.com/ (Simple poem generator in Korean)
+"If they were rescued by the flour Aurelianos, whose crosses of ash inspired a sacred respect, as if they were caste marks, stamps of invulnerability. Remedios the Beauty did not know how to repair the pianola. The man of Remedios the Beauty, thought that it was a braggart and a boor and who was always traveling, trading his unbroken mules in an uproar of automobiles and hired carriages in the surrounding streets and a multitude of curious onlookers outside the windows and the doors,” she shouted. “Cook some meat and fish, stirred up by the wind. "Give it to me," she said. "I am not very close but you can do you expect, Doctor? I n the other hand, she had waited for the rest of the house, but with the same shrewdness and a little at dusk, with his eyes full of tears, she wept to be the sovereign mler of the Poetic Festival while Jose Arcadio Buendia had been assigned to the chestnut tree, until he was surprised at the time when she was ready, for the Captain was taken at that time that he picked up his hat and put his hand on the driver's shoulder and asked them how to do it
 
 
 # Contribution
